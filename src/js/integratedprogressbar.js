@@ -115,9 +115,8 @@ function integratedorigamiProgressbar() {
 
 		
 }
-
-export default function () {
-        var integratedpBar = new integratedorigamiProgressbar();
+ var integratedpBar = new integratedorigamiProgressbar();
+export default function () {       
         integratedpBar.draw_Circular_ProgressBar();
 		integratedpBar.draw_Flat_ProgressBar();  
 }
