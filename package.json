@@ -1,0 +1,19 @@
+{
+  "name": "o-integratedProgress-bar",
+  "version": "1.0.0",
+  "description": "bar component developement which can able to plot horizontal as well as circular progress bar",
+ "main": ["main.js","main.scss"],
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "private":true,
+  "devDependencies":{
+      "gulp":"latest",
+      "origami-build-tools":"latest"
+    },
+  "keywords": [
+    "bar"
+  ],
+  "author": "debasis.satapathy@pearson.com",
+  "license": "ISC"
+}

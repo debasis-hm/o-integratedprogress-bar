@@ -1,0 +1,49 @@
+
+.Circular-prg-chart  {
+    position:relative;
+    margin:80px;
+    width:250px; height:250px;
+}
+.Circular-prg-chart > canvas {
+    display: block;
+    position:absolute;
+    top:0;
+    left:0;
+}
+.Circular-prg-chart > span {
+    color:#555;
+    display:block;
+    width:250px; 
+    line-height:250px;
+    text-align:center;   
+    font-family:sans-serif;
+    font-size:3vmin;
+
+    font-weight:100;
+    margin-left:5px;
+}
+
+
+
+.horizontal-prg-chart{
+	width:100%;
+	border : 1px solid #AAA ;
+	border-radius:5px;
+	background-color :white;
+    padding:1px;
+	height:38px;
+	
+}
+.horizontal-prg-chart > div {
+
+	text-align: center;
+	font-size: 3vmin;
+	color: white;
+	background-color:#5cb85c;
+	background-image:linear-gradient(45deg,rgba(255,255,255,.15) 25%,transparent 25%,transparent 50%,rgba(255,255,255,.15) 50%,rgba(255,255,255,.15) 75%,transparent 75%,transparent);
+	background-image:-webkit-linear-gradient(45deg,rgba(255,255,255,.15) 25%,transparent 25%,transparent 50%,rgba(255,255,255,.15) 50%,rgba(255,255,255,.15) 75%,transparent 75%,transparent);
+	background-image:-o-linear-gradient(45deg,rgba(255,255,255,.15) 25%,transparent 25%,transparent 50%,rgba(255,255,255,.15) 50%,rgba(255,255,255,.15) 75%,transparent 75%,transparent);
+	background-size:40px 40px;
+	height:100%;
+
+}
