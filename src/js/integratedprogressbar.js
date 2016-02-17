@@ -1,4 +1,4 @@
-export default function integratedorigamiProgressbar() {
+function integratedorigamiProgressbar() {
 
 		let db = this;
 
@@ -113,6 +113,11 @@ export default function integratedorigamiProgressbar() {
 		
 		};
 
-		db.draw_Circular_ProgressBar();
-		db.draw_Flat_ProgressBar();
+		
+}
+
+export default function () {
+        var integratedpBar = new integratedorigamiProgressbar();
+        integratedpBar.draw_Circular_ProgressBar();
+		integratedpBar.draw_Flat_ProgressBar();  
 }
