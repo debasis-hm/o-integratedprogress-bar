@@ -1,5 +1,5 @@
 {
-  "name": "o-integratedProgress-bar",
+  "name": "o-integratedprogress-bar",
   "version": "1.0.0",
   "description": "bar component developement which can able to plot horizontal as well as circular progress bar",
  "main": ["main.js","main.scss"],
@@ -14,6 +14,6 @@
   "keywords": [
     "bar"
   ],
-  "author": "debasis.satapathy@pearson.com",
+  "author": "debasis.p.satapathy@happiestminds.com",
   "license": "ISC"
 }
