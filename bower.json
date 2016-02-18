@@ -1,0 +1,17 @@
+{
+    "name": "o-integratedProgress-bar",
+    "version": "1.0.0",
+    "authors": [
+    "Debasis Satapathy <debasis.p.satapathy@happiestminds.com>"
+  ],
+    "description": "graph",
+    "main": ["main.js","main.scss"],
+    "keywords": [
+    "graph"
+  ],
+    "license": "MIT",
+    "homepage": "index.html",
+    "dependencies": {
+      		
+    }
+}
